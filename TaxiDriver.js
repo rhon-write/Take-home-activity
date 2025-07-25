@@ -34,7 +34,6 @@ function findPeakHour(rides) {
   return `${peakHour}:00 - ${+peakHour + 1}:00 (${maxCount} rides)`;
 }
 
-// Example output
 console.log(` Total Earnings: ₱${calculateTotalEarnings(rides)}`);
 const longest = findLongestRide(rides);
 console.log(` Longest Ride: ₱${longest.fare}, ${longest.distance} km`);
