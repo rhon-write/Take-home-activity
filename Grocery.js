@@ -3,8 +3,8 @@ const POINTS_THRESHOLD = 10;
 const DISCOUNT_PER_10_POINTS = 50;
 
 let customer2 = {
-  name: "Maria Santos",
-  loyaltyPoints: 8 
+  name: "Mark Rhonald Bodegon",
+  loyaltyPoints: 10 
 };
 
 function checkout(purchaseAmount, customer) {
